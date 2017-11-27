@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Todo</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a7ae2cebf8.js"></script>
+</head>
+<body>
 
-  <body>
-    <%= yield %>
-  </body>
+<div class="container">
+<%= yield %>
+</div>
+
+</body>
 </html>
