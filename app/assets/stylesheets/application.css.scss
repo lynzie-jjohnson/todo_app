@@ -27,11 +27,11 @@ html {
 
 body {
  	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
+  background: -webkit-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
+  background:    -moz-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
+  background:     -ms-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
+  background:      -o-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
+  background:         linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
   font-family: 'Roboto Condensed', sans-serif;
 }
 
