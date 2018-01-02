@@ -27,11 +27,11 @@ html {
 
 body {
  	height: 100%;
-  background: -webkit-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
-  background:    -moz-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
-  background:     -ms-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
-  background:      -o-linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
-  background:         linear-gradient(40deg, rgb(177, 137, 240) 10%, rgb(198, 236, 230) 100%);
+  background: -webkit-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
+  background:    -moz-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
+  background:     -ms-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
+  background:      -o-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
+  background:         linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -60,7 +60,7 @@ body {
 	border-radius: 7px;
 	-webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
 	box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
-	padding: 1em 0;
+	padding: 3em 2em 2em 3em;
 }
 
 .todo_list_title {
