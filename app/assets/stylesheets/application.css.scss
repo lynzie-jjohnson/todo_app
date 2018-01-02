@@ -14,6 +14,9 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap";
+
+ 
 
  $white_opaque: rgba(250, 250, 250, .3);
  $dark: #1F7972;
@@ -27,11 +30,11 @@ html {
 
 body {
  	height: 100%;
-  background: -webkit-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
-  background:    -moz-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
-  background:     -ms-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
-  background:      -o-linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
-  background:         linear-gradient(360deg, #1A535C 10%, #9AE6DC 80%);
+	 background: -webkit-linear-gradient(360deg, #172E37 10%, #85CEC1 90%);
+	 background:    -moz-linear-gradient(360deg, #172E37 10%, #85CEC1 90%);
+	 background:     -ms-linear-gradient(360deg, #172E37 10%, #85CEC1 90%);
+	 background:      -o-linear-gradient(360deg, #172E37 10%, #85CEC1 90%);
+	 background:         linear-gradient(360deg, #172E37 10%, #85CEC1 90%);
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -57,11 +60,15 @@ body {
 	max-width: 750px;
 	background: $white_opaque;
 	margin: 3em auto 0 auto;
-	border-radius: 7px;
+	// border-radius: 7px;
 	-webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
 	box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
 	padding: 1em 0;
 }
+
+// .card {
+// 	background-color: black;
+// }
 
 .todo_list_title {
 	text-align: center;
@@ -174,6 +181,7 @@ body {
 	a {
 		color: white;
 		text-decoration: none;
+		text-transform: uppercase;
 		font-size: 1.5em;
 	}
 }
@@ -199,12 +207,12 @@ textarea {
 	height: 200px;
 }
 input[type="submit"] {
-	background: white;
+	background: rgba(255, 255, 255, 0.795);
 	outline: none;
 	border: none;
 	height: 40px;
 	border-radius: 4px;
-	width: 25%;
+	width: 100%;
 	display: inline-block;
 	transition: all .4s ease-in-out;
 	cursor: pointer;
