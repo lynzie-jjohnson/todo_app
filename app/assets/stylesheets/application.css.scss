@@ -60,12 +60,12 @@ body {
 	border-radius: 7px;
 	-webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
 	box-shadow: 0 0 4px 4px rgba(0,0,0,.03);
-	padding: 3em 2em 2em 3em;
+	padding: 1em 0;
 }
 
 .todo_list_title {
 	text-align: center;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 2.5rem;
 	text-transform: uppercase;
 	color: white;
@@ -73,19 +73,19 @@ body {
 	a {
 		text-decoration: none;
 		color: white;
-		transition: all .4s ease-in-out;
+		transition: all .2s ease-in-out;
 		&:hover {
-			opacity: 0.4;
+			opacity: 0.6;
 		}
 	}
 }
 
 .todo_list_sub_title {
-	margin: 0 0 3em 0;
+	margin: 1em 0 3em 0;
 	text-align: center;
-	font-size: 0.9em;
+	font-size: 1em;
 	color: $dark;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .index_row {
@@ -173,6 +173,8 @@ body {
 	color: white;
 	a {
 		color: white;
+		text-decoration: none;
+		font-size: 1.5em;
 	}
 }
 
